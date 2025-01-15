@@ -46,4 +46,5 @@ docker network connect myNetwork mycontainer2
 docker exec -it my-aafire-1 ping my-aafire-2
 docker exec -it my-aafire-2 ping my-aafire-1
 
-![image](https://github.com/user-attachments/assets/763bc5c3-a7e9-4ffe-a504-a2f009f1f7d0)
+![image](https://github.com/user-attachments/assets/1fc4269f-5398-4f03-9165-cf316e6bf7c8)
+
