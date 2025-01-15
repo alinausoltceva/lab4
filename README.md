@@ -43,8 +43,10 @@ docker network connect myNetwork mycontainer1
 docker network connect myNetwork mycontainer2
 При помощи команды ping мы проверяем подключение к сетям
 
+´´´
 docker exec -it my-aafire-1 ping my-aafire-2
-docker exec -it my-aafire-2 ping my-aafire-1
+docker exec -it my-aafire-2 ping my-aafire-1 
+´´´
 
 ![image](https://github.com/user-attachments/assets/1fc4269f-5398-4f03-9165-cf316e6bf7c8)
 
