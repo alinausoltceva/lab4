@@ -8,8 +8,9 @@
 FROM ubuntu:latest  
   
 RUN apt-get update && apt-get install -y libaa-bin inetutils-ping && apt-get clean && rm -rf /var/lib/apt/lists/*  
+
+CMD ["aafire"]
 ```
-CMD ["aafire"]  
 Мы указали образ, на основе которого все будет работать. Далее указываем, что мы хотим запустить, а именно мы обновляем пакетный менеджер и устанавливаем ПО под названием libaa-bin.
 Dockerfile готов, сохраняем и запускаем команду сборки образа с тегом my-aafire.
 
